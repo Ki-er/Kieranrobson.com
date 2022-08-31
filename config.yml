@@ -1,4 +1,4 @@
-baseURL: "blog.kieranrobson.com"
+baseURL: "https://blog.kieranrobson.com/"
 title: Kieran Robson Blogs
 paginate: 5
 theme: PaperMod
