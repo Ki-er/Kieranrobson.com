@@ -1,5 +1,5 @@
-baseURL: ""
-title: Kieran Robson Docs
+baseURL: "blog.kieranrobson.com"
+title: Kieran Robson Blogs
 paginate: 5
 theme: PaperMod
 
