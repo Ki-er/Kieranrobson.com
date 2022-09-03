@@ -64,6 +64,8 @@ params:
         url: /blog/
       - name: Movie Reviews
         url: /moviereviews/
+      - name: Projects
+        url: /projects/
 
   # home-info mode
   homeInfoParams:
