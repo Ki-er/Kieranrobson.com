@@ -3,7 +3,7 @@ title: "What I Run On My VPS"
 date:  2022-06-13T10:15:00
 tags: ["VPS", "Docker"]
 categories: ["Selfhosting"]
-description: "What I Run On My VPS"
+description: "A breakdown of important software I run on my server."
 showToc: true
 TocOpen: false
 draft: false
@@ -20,7 +20,6 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 ---
-# What I run on my VPS
 I currently run all my services on a VPS (Virtual Private Server) due to just graduating and not having anywhere to host a homelab fulltime. 
 
 I use an OVH Essential VPS with 2 vCores and 4GB RAM. This was a huge upgrade from the base tier Digitial Ocean droplet I had which only allowed me 1 vCore and 1GB RAM. (A great recommendation from my friend [Crimsontome](https://github.com/CrimsonTome) who also [inspired](https://blog.crimsontome.com/posts/my-current-vps-setup/) this blog post.)

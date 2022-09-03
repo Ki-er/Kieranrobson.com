@@ -1,5 +1,5 @@
 baseURL: "https://blog.kieranrobson.com/"
-title: Kieran Robson Blogs
+title: Kieran Robson Blog
 paginate: 5
 theme: PaperMod
 
@@ -57,11 +57,13 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Kieran Robson Blogs
+    title: Kieran Robson Blog
     subtitle: "My personal blog"
     buttons:
-      - name: View Posts
-        url: /archive/
+      - name: Tech Posts
+        url: /blog/
+      - name: Movie Reviews
+        url: /moviereviews/
 
   # home-info mode
   homeInfoParams:
@@ -85,10 +87,6 @@ params:
 
 menu:
   main:
-  - identifier: archive
-    name: Posts
-    url: /archive/
-    weight: 20
   - identifier: tags
     name: Tags
     url: /tags/
