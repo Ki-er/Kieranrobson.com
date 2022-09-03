@@ -63,7 +63,7 @@ params:
       - name: Tech Posts
         url: /blog/
       - name: Movie Reviews
-        url: /moviereviews/
+        url: /movies/
       - name: Projects
         url: /projects/
 
