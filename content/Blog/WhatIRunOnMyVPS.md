@@ -2,7 +2,7 @@
 title: "What I Run On My VPS"
 date:  2022-06-13T10:15:00
 tags: ["VPS", "Docker"]
-categories: ["Tech"]
+categories: ["Blog Post"]
 description: "A breakdown of important software I run on my server."
 showToc: true
 TocOpen: false

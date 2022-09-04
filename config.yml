@@ -60,8 +60,10 @@ params:
     title: Kieran Robson Blog
     subtitle: "My personal blog"
     buttons:
-      - name: Tech Posts
+      - name: Blog
         url: /blog/
+      - name: Docs
+        url: /docs/
       - name: Movie Reviews
         url: /movies/
       - name: Projects
