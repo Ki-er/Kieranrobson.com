@@ -57,26 +57,24 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Kieran Robson Blog
-    subtitle: "My personal blog"
+    title: Kieran Robson
+    subtitle: "Welcome to my site!"
     buttons:
       - name: Blog
         url: /blog/
       - name: Docs
         url: /docs/
-      - name: Movie Reviews
-        url: /movies/
       - name: Projects
         url: /projects/
+      - name: Movie Reviews
+        url: /movies/
+
 
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: Welcome to my blog site!
 
-  socialIcons:
-    - name: website
-      url: "https://kieranrobson.com/"
 
   # for search
   # https://fusejs.io/api/options.html
@@ -94,10 +92,14 @@ menu:
   - identifier: tags
     name: Tags
     url: /tags/
-    weight: 20
+    weight: 10
   - identifier: categories
     name: Categories
     url: /categories/
+    weight: 20
+  - identifier: Links
+    name: Links
+    url: https://links.kieranrobson.com
     weight: 30
 
 
