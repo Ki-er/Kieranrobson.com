@@ -1,5 +1,5 @@
 baseURL: "https://kieranrobson.com/"
-title: Kieran Robson Blog
+title: Kieran Robson
 paginate: 10
 theme: PaperMod
 
@@ -17,7 +17,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Kieran Robson
-  description: "Kieran Robson Site"
+  description: "Kieran Robson's Site"
   keywords: [Blog, Portfolio, PaperMod]
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
