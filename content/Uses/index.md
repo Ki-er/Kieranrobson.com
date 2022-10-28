@@ -48,3 +48,28 @@ Inspired by [awesome-uses](https://uses.tech/)!
 **Theme** - I use the [Night Owl](https://github.com/sdras/night-owl-vscode-theme) theme for its bright colours when editing both markdown and js files.
 
 **Extensions** - I don't really use extensions as I prefer to use project specific tools within their projects, but the extensions I do use are [CSpell](https://cspell.org/), [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) and [GitLens](https://gitlens.amod.io/).
+
+### Web Technologies
+
+**Backend** - As a lot of my projects uses JavaScript, I use NodeJS often for server side applications such as Discord bots and soon to be other bots..maybe. I use a mix of Hugo and Jekyll for SSG generation.
+
+**Databases** - MongoDB as it was recommended in my Discord bot journey and it just works.
+
+**Hosting Providers** - I use OVH for my VPS provider, and run a Ubuntu 20.04 server which all of my projects are hosted on. Normally within Docker containers.
+
+### Research and PhD tools. 
+
+As a PhD student, my time is often spent in academic tools and software so I thought I would add them here too!
+
+**Reference management** - I use Mendeley for my reference management due to its web interface allowing me to access my sources anywhere. It also lets me take notes within Mendeley and the one click `Add to Library` feature is very useful!
+
+**Note and Organisation** - I use Notion to manage my life and PhD from taking notes, to storing office hours to even keeping track of when the Bin dates are. Without Notion, id be lost.
+
+### General Software 
+**Browser** - I se Microsoft Edge for my browsing needs, simply for the vertical tabs, they are so much nicer to use!
+
+**Music** - For music streaming, I have been using Spotify for the past 6 years and have never looked back!
+
+**Media** - For media streaming I use Plex, having your own netflix like service with the content you own, is a game changer!
+
+**Movie and TV Show Tracking** - As a stats nerd and a media buff, I use Letterboxd and Trakt to keep track of my movie and tv show habits.
