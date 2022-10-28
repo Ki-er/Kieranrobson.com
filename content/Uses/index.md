@@ -21,36 +21,30 @@ Inspired by [awesome-uses](https://uses.tech/)!
 
 ## Hardware 
 
-### Desktop - Custom built machine
-  - Ryzen 5 3600
-  - Nvidia Geforce GTX 1060 6GB
-  - Aorus B450 AORUS ELITE Motherboard
-  - x2 Crucial 8GB DDR4 2400 RPM
+**Desktop** - What used to be a prebuilt has slowly turned into a custom built Windows 10 machine running a Ryzen 5 3600 with 32GB DDR4 memory and a GTX 1060 6GB all on top of a Gigabyte Aurous B450 Elite motherboard. 
 
-### Laptop - Samsung Book2 Pro 360
-  - Intel i7-1260P, 2100 Mhz
-  - Intel Iris Xe Graphics
-  - 16GB DDR5 5200 Mhz
+**Monitors** - The desktop connects to two monitors by BenQ. The primary monitor is a 28 inch 4k display and the secondary monitor is a 24 inch 1080p display
 
-### Phone - Samsung Note20 Ultra 5G
+**Laptop 1** - My personal laptop is a Samsung Galaxy Book2 Pro 360 running an 12th gen i7-1260P with 16GB memory and a 51GB SSD, holding a Windows 11 Home OS.
 
-### Peripherals
-- Mouse - Logitech G502 Wired Mouse
-  
-- Keyboard
-  - Corsair K70
-  - Amazon Basics Matte Black Wired Keyboard
+**Laptop 2** - Placeholder for when I get my work laptop.
 
-### Audio
-- Headphones
-  - Philips SHP9500
-  - Anker Life A2 NC Wireless Earbuds
-  
-- Microphone - Razer Seiren X
+**Tablet** - iPad Air 5th Generation
 
-- DAC - Creative G6 
+**Phone** - Samsung Galaxy Note 20 Ultra 5G
+
+**Watch** - Samsung Watch 5 Pro
+
+**Earbuds** - JLab go air pop until I get myself a pair of Buds2 pros.
 
 ## Software
 
-### Development
-  - VS Code
+### Editor, Terminal and Extensions
+
+**Editor** - I use Visual Studio Code as my editor whether it be for coding projects or just editing markdown or yaml files. 
+
+**Terminal** - For my terminal I use.. Windows Terminal. I used to use the command prompt but then wanted something more polished that I could use with a theme. I mainly ue the terminal within vs-code though.
+
+**Theme** - I use the [Night Owl](https://github.com/sdras/night-owl-vscode-theme) theme for its bright colours when editing both markdown and js files.
+
+**Extensions** - I don't really use extensions as I prefer to use project specific tools within their projects, but the extensions I do use are [CSpell](https://cspell.org/), [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) and [GitLens](https://gitlens.amod.io/).
