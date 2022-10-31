@@ -41,9 +41,9 @@ Inspired by [awesome-uses](https://uses.tech/)!
 
 ### Editor, Terminal and Extensions
 
-**Editor** - I use Visual Studio Code as my editor whether it be for coding projects or just editing markdown or yaml files. 
+**Editor** - I use [Visual Studio Code](https://code.visualstudio.com/) as my editor whether it be for coding projects or just editing markdown or yaml files. 
 
-**Terminal** - For my terminal I use.. Windows Terminal. I used to use the command prompt but then wanted something more polished that I could use with a theme. I mainly ue the terminal within vs-code though.
+**Terminal** - For my terminal I use.. [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701). I used to use the command prompt but then wanted something more polished that I could use with a theme. I mainly ue the terminal within vs-code though.
 
 **Theme** - I use the [Night Owl](https://github.com/sdras/night-owl-vscode-theme) theme for its bright colours when editing both markdown and js files.
 
@@ -51,25 +51,25 @@ Inspired by [awesome-uses](https://uses.tech/)!
 
 ### Web Technologies
 
-**Backend** - As a lot of my projects uses JavaScript, I use NodeJS often for server side applications such as Discord bots and soon to be other bots..maybe. I use a mix of Hugo and Jekyll for SSG generation.
+**Backend** - As a lot of my projects uses [JavaScript](https://www.javascript.com/), I use [NodeJS](https://nodejs.org/en/) often for server side applications such as Discord bots and soon to be other bots..maybe. I use a mix of Hugo and Jekyll for SSG generation.
 
-**Databases** - MongoDB as it was recommended in my Discord bot journey and it just works.
+**Databases** - [MongoDB](https://www.mongodb.com/) as it was recommended in my Discord bot journey and it just works.
 
-**Hosting Providers** - I use OVH for my VPS provider, and run a Ubuntu 20.04 server which all of my projects are hosted on. Normally within Docker containers.
+**Hosting Providers** - I use [OVH](https://www.ovhcloud.com/en-gb/) for my VPS provider, and run a Ubuntu 20.04 server which all of my projects are hosted on. Normally within [Docker](https://www.docker.com/) containers.
 
 ### Research and PhD tools. 
 
 As a PhD student, my time is often spent in academic tools and software so I thought I would add them here too!
 
-**Reference management** - I use Mendeley for my reference management due to its web interface allowing me to access my sources anywhere. It also lets me take notes within Mendeley and the one click `Add to Library` feature is very useful!
+**Reference management** - I use [Mendeley](https://www.mendeley.com/) for my reference management due to its web interface allowing me to access my sources anywhere. It also lets me take notes within Mendeley and the one click `Add to Library` feature is very useful!
 
-**Note and Organisation** - I use Notion to manage my life and PhD from taking notes, to storing office hours to even keeping track of when the Bin dates are. Without Notion, id be lost.
+**Note and Organisation** - I use [Notion](https://www.notion.so/) to manage my life and PhD from taking notes, to storing office hours to even keeping track of when the Bin dates are. Without Notion, id be lost.
 
 ### General Software 
-**Browser** - I se Microsoft Edge for my browsing needs, simply for the vertical tabs, they are so much nicer to use!
+**Browser** - I use [Microsoft Edge](https://www.microsoft.com/en-us/edge?form=MA13FJ) for my browsing needs, simply for the vertical tabs, they are so much nicer to use!
 
-**Music** - For music streaming, I have been using Spotify for the past 6 years and have never looked back!
+**Music** - For music streaming, I have been using [Spotify](https://spotify.com) for the past 6 years and have never looked back!
 
-**Media** - For media streaming I use Plex, having your own netflix like service with the content you own, is a game changer!
+**Media** - For media streaming I use [Plex](https://plex.tv), having your own netflix like service with the content you own, is a game changer!
 
-**Movie and TV Show Tracking** - As a stats nerd and a media buff, I use Letterboxd and Trakt to keep track of my movie and tv show habits.
+**Movie and TV Show Tracking** - As a stats nerd and a media buff, I use [Letterboxd](https://letterboxd.com/) and [Trakt](https://trakt.tv) to keep track of my movie and tv show habits.
