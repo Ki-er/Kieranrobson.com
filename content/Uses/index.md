@@ -47,7 +47,7 @@ Inspired by [awesome-uses](https://uses.tech/)!
 
 **Theme** - I use the [Night Owl](https://github.com/sdras/night-owl-vscode-theme) theme for its bright colours when editing both markdown and js files.
 
-**Extensions** - I don't really use extensions as I prefer to use project specific tools within their projects, but the extensions I do use are [CSpell](https://cspell.org/), [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) and [GitLens](https://gitlens.amod.io/).
+**Extensions** - I don't really use extensions as I prefer to use project specific tools within their projects, however the extensions I do use can be found [here](https://howivscode.com/KieranRobson).
 
 ### Web Technologies
 
