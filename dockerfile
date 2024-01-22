@@ -14,7 +14,7 @@ WORKDIR /usr/site/src
 RUN hugo
 
 #Copy static files to Nginx
-FROM nginx:alpine
+FROM --platform=linux/arm64 debian:11-slim AS deps
 COPY --from=build /site/public /usr/share/nginx/html
 
 WORKDIR /usr/share/nginx/html
