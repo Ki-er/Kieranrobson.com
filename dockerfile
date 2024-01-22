@@ -1,7 +1,5 @@
 FROM --platform=linux/arm64 debian:11-slim AS deps
 
-RUN ls /
-
 RUN apk add --update \
     wget
     
@@ -12,7 +10,7 @@ RUN wget --quiet "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VER
     mv hugo /usr/bin
 
 COPY ./ /site
-WORKDIR /site
+WORKDIR /usr/site/src
 RUN hugo
 
 #Copy static files to Nginx
