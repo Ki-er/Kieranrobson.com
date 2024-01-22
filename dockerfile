@@ -1,4 +1,4 @@
-FROM --platform linux/arm/v8 as build
+FROM --platform=linux/arm64 python:3.7-alpine as build
 
 RUN apk add --update \
     wget
