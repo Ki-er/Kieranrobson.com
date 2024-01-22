@@ -1,4 +1,4 @@
-FROM --platform=linux/arm64 python:3.7-alpine as build
+FROM --platform=linux/arm64 debian:11-slim AS deps
 
 RUN apk add --update \
     wget
