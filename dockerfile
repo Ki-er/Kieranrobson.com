@@ -1,4 +1,4 @@
-FROM --platform=linux/arm64 debian:11-slim AS deps
+FROM --platform=linux/arm64 as build
 
 RUN apk add --update \
     wget
@@ -9,7 +9,7 @@ RUN wget --quiet "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VER
     rm -r hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
     mv hugo /usr/bin
 
-COPY ./ /site
+COPY ./ /usr/site/src
 WORKDIR /usr/site/src
 RUN hugo
 
