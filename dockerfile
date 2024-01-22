@@ -1,4 +1,4 @@
-FROM linux/arm64 as build
+FROM --platform linux/arm/v8 as build
 
 RUN apk add --update \
     wget
