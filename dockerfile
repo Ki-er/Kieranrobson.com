@@ -1,4 +1,6 @@
-FROM nginx:alpine as build
+FROM --platform=linux/arm64 debian:11-slim AS deps
+
+RUN ls /
 
 RUN apk add --update \
     wget
