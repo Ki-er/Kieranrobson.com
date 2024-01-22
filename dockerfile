@@ -15,6 +15,6 @@ RUN hugo
 
 #Copy static files to Nginx
 FROM --platform=linux/arm64 debian:11-slim AS deps
-COPY /usr/site/public /usr/share/nginx/html
+COPY --from=build /usr/site/public /usr/share/nginx/html
 
 WORKDIR /usr/share/nginx/html
