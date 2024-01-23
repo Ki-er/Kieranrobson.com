@@ -1,20 +1,27 @@
-FROM --platform=linux/arm64 debian:11-slim AS deps
+FROM alpine:3.9 AS build
 
-RUN apk add --update \
-    wget
-    
-ARG HUGO_VERSION="0.108.0"
-RUN wget --quiet "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz" && \
-    tar xzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
-    rm -r hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
-    mv hugo /usr/bin
+ARG VERSION="0.92.0"
 
-COPY ./ /usr/site/src
-WORKDIR /usr/site/src
-RUN hugo
+ADD https://github.com/gohugoio/hugo/releases/download/v${VERSION}/hugo_${VERSION}_Linux-64bit.tar.gz /hugo.tar.gz
+RUN tar -zxvf hugo.tar.gz
+RUN /hugo version
 
-#Copy static files to Nginx
-FROM --platform=linux/arm64 debian:11-slim AS deps
-COPY --from=build /usr/site/public /usr/share/nginx/html
+RUN apk add --no-cache git
 
-WORKDIR /usr/share/nginx/html
+COPY . /site
+WORKDIR /site
+
+RUN /hugo 
+
+FROM nginx:1.15-alpine
+
+WORKDIR /usr/share/nginx/html/
+
+RUN rm -fr * .??*
+
+RUN sed -i '9i\        include /etc/nginx/conf.d/expires.inc;\n' /etc/nginx/conf.d/default.conf
+
+COPY _docker/expires.inc /etc/nginx/conf.d/expires.inc
+RUN chmod 0644 /etc/nginx/conf.d/expires.inc
+
+COPY --from=build /site/public /usr/share/nginx/html
