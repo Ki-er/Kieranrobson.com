@@ -1,5 +1,5 @@
 # Use the base image 'ubuntu:bionic'
-FROM ubuntu:bionic
+FROM --platform=linux/amd64 ubuntu:bionic
 # Update the package repository
 # Install necessary packages
 RUN apt-get update && \
