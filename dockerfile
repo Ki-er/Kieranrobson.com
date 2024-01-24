@@ -1,25 +1,24 @@
-FROM debian:stable
-
-# Download and install hugo
-ENV HUGO_VERSION 0.44
-ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-64bit.deb
-
-#ADD https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} /tmp/hugo.deb
-RUN curl -sL -o /tmp/hugo.deb \
-    https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} && \
-    dpkg -i /tmp/hugo.deb && \
-    rm /tmp/hugo.deb && \
-    mkdir /usr/share/blog
-
-WORKDIR /usr/share/blog
-
-# Expose default hugo port
-EXPOSE 1313
-
-# Automatically build site
-ONBUILD ADD site/ /usr/share/blog
-ONBUILD RUN hugo -d /usr/share/nginx/html/
-
-# By default, serve site
-ENV HUGO_BASE_URL http://localhost:1313
-CMD hugo server -b ${HUGO_BASE_URL} --bind=0.0.0.0
+# Use the base image 'ubuntu:bionic'
+FROM ubuntu:bionic
+# Update the package repository
+# Install necessary packages
+RUN apt-get update && \
+    apt-get install -y \
+        ca-certificates \
+        wget && \
+    update-ca-certificates
+# Define the Hugo version
+ARG HUGO_VERSION="0.117.0"
+# Download and install Hugo
+RUN wget --quiet "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz" && \
+    tar xzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
+    rm -r hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
+    mv hugo /usr/bin && \
+    chmod 755 /usr/bin/hugo
+## Hugo source code
+# Set the working directory to '/src'
+WORKDIR /src
+# Copy code into the '/src' directory
+COPY ./ /src
+# Command to run when the container starts
+CMD ["hugo", "server", "--bind", "0.0.0.0"]
